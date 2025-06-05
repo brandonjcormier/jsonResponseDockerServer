@@ -1,0 +1,7 @@
+Navigate to this directory in a terminal and run this:
+
+sudo docker build -t ipmonitoring .
+
+Then you can run:
+
+sudo docker compose up -d

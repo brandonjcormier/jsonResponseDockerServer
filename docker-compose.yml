@@ -1,0 +1,11 @@
+name: ipmonitoring
+services:
+  ipmonitoring:
+    image: docker.io/library/ipmonitoring
+    network_mode: container:gluetun
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Chicago
+    # ports:
+    #   - 1237:1237
