@@ -7,5 +7,5 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=America/Chicago
-    # ports:
+    # ports: # This is for reference. Add this port config to your gluetun container.
     #   - 1237:1237
